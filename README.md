@@ -7,7 +7,6 @@ A React + Redux Toolkit application to search GitHub users, view their profiles,
 - Search GitHub users
 - View user profile (avatar, name, company, location, etc.)
 - View public repositories with:
-  - Filter by repository name
   - Paginated list (First, numbered pages, Last)
   - Realtime loading indicator with animation
 - View stars, forks, and watchers
@@ -28,12 +27,18 @@ A React + Redux Toolkit application to search GitHub users, view their profiles,
 
 ---
 
+## Demo
+
+https://rafyfakhrizal299.github.io/github-repo-explorer/
+
+---
+
 ## Getting Started
 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/github-repo-explorer.git
+git clone https://github.com/rafyfakhrizal299/github-repo-explorer.git
 cd github-repo-explorer
 ```
 
