@@ -13,7 +13,7 @@ const UserList: React.FC<Props> = ({ users, onSelect, loading }) => {
 
   return (
     <ul className="space-y-2">
-      {users.map((user) => (
+        {users.length === 0 ? <p className="text-gray-700 dark:text-darktext text-sm mt-1 ml-2">Nothing to display yet / No data</p> : users.map((user) => (
         <li
           key={user.id}
           className="cursor-pointer p-3 bg-white dark:bg-darksurface rounded border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-darkbg shadow-sm transition-colors"
