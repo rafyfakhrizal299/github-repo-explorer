@@ -29,7 +29,7 @@ A React + Redux Toolkit application to search GitHub users, view their profiles,
 
 ## Demo
 
-https://rafyfakhrizal299.github.io/github-repo-explorer/
+Live demo: https://rafyfakhrizal299.github.io/github-repo-explorer/
 
 ---
 
@@ -51,20 +51,6 @@ npm install
 ```bash
 npm start
 ```
----
-
-## Project Structure
-src/
-├── components/
-│   └── common/         # Reusable components (e.g. Pagination)
-├── features/
-│   ├── users/          # Search, list, profile, slice
-│   └── repos/          # Repo grid, repo slice
-├── hooks/              # Typed Redux hooks
-├── store.ts            # Redux store
-├── App.tsx             # Root component
-└── main.tsx            # Entry point
-
 ---
 
 Hopefully the project is as desired. 
